@@ -1,0 +1,14 @@
+@import 'resetStyle.scss';
+
+.container {
+  max-width: 1200px;
+  min-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}

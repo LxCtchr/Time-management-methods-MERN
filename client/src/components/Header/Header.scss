@@ -1,0 +1,68 @@
+.header {
+  background: #D8D8D8;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  &__row {
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    line-height: 33px;
+    font-size: 24px;
+    color: #000000;
+  }
+  &__img {
+    margin-right: 25px;
+    width: 40px;
+    height: 40px;
+  }
+  &__column {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.menu {
+  &__body {
+    display: flex;
+    font-size: 18px;
+    color: #000000;
+    line-height: 25px;
+    align-items: center;
+    margin-left: 80px;
+  }
+  &__list {
+    display: flex;
+    & > li {
+      &:first-child {
+        margin-left: 0;
+      }
+      margin-left: 38px;
+    }
+  }
+  &__login {
+    margin-left: 38px;
+    color: #000000;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  &__button {
+    background: #000000;
+    border-radius: 5px;
+    height: 35px;
+    & > span {
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 5px 24px;
+    }
+  }
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 4px;
+}
