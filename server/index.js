@@ -50,8 +50,6 @@ app.get('/survey', SurveyController.getSurvey);
 app.post('/methods', MethodsController.createMethod);
 app.get('/methods', MethodsController.findMethods);
 app.get('/methods/:name', MethodsController.findMethodByName);
-app.post('/methods/pomodoro/tasks', checkAuthentication, PomodoroController.create);
-app.get('/methods/pomodoro/tasks', checkAuthentication, PomodoroController.getTasks);
 
 app.listen(process.env.PORT || 5000, (error) => {
   if (error) {
